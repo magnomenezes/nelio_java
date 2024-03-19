@@ -3,9 +3,17 @@ package treinogit;
 public class pessoa {
 
 	
-		private string nome;
-		private string sobrenome;
-		public string getNome() {
+		private String nome;
+		private String sobrenome;
+		
+		private String idade;
+		public String getIdade() {
+			return idade;
+		}
+		public void setIdade(String idade) {
+			this.idade = idade;
+		}
+		public String getNome() {
 			return nome;
 		}
 		public void setNome(string nome) {
